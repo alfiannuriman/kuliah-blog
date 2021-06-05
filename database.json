@@ -1,0 +1,20 @@
+[
+    {
+        "post_type_id": "1",
+        "post_type_name": "Article",
+        "post_thumbnail_image": "https://media.prod.mdn.mozit.cloud/attachments/2014/11/18/9461/012655e623bef579c9bd376e227bc648/css-declaration-small.png",
+        "title": "Cascading Style Sheet (CSS)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
+        "post_date": "2021-06-05 11:38:00",
+        "author": "Alfian"
+    },
+    {
+        "post_type_id": "1",
+        "post_type_name": "Article",
+        "post_thumbnail_image": "https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg",
+        "title": "HyperText Markup Language (HTML)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
+        "post_date": "2021-06-05 12:12:12",
+        "author": "Alfian"
+    }
+]
