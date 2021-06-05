@@ -16,5 +16,25 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
         "post_date": "2021-06-05 12:12:12",
         "author": "Alfian"
+    },
+    {
+        "post_type_id": "2",
+        "post_type_name": "Product",
+        "post_thumbnail_image": "https://images.tokopedia.net/img/cache/900/product-1/2020/4/24/6064990/6064990_b716f217-ee73-4c33-aac7-977624017aa0_1000_1000",
+        "title": "Fantech Fighter K613 TKL - RGB Gaming Keyboard",
+        "description": "PRODUCT NAME : Backlit Floating keys Multimedia Gaming Keyboard, UKURAN : 352mm X 130mm X 40mm",
+        "post_date": "2021-06-05 12:12:12",
+        "author": "Alfian",
+        "price": "189000"
+    },
+    {
+        "post_type_id": "2",
+        "post_type_name": "Product",
+        "post_thumbnail_image": "https://images.tokopedia.net/img/cache/900/product-1/2020/3/25/6064990/6064990_351b14c8-d55b-48c8-bba7-ab1943d30ce8_1000_1000",
+        "title": "KEYBOARD FANTECH K511",
+        "description": "PRODUCT NAME : Fantech hunter pro Keyboard, Size : 458mm (W) x 187mm (L) x 34mm (H)",
+        "post_date": "2021-06-05 12:12:12",
+        "author": "Alfian",
+        "price": "129000"
     }
 ]

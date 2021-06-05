@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+  require_once 'app/Product.php';
+
+  $product = new Product;
+  $models = $product->getList();
+?>
+
 <?php require_once 'layouts/header.php'; ?>
 
 <body>
@@ -17,27 +24,26 @@
 
         <h1 class="my-4">Product</h1>
 
+        
+
         <div class="row">
-          <div class="col-6">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images-na.ssl-images-amazon.com/images/I/41HrMSnMfUL._AC_UL600_SR483,600_.jpg" class="card-img-top" alt="Product image">
-              <div class="card-body">
-                <h5 class="card-title">Book</h5>
-                <p class="card-text">Algorithm book</p>
-                <a href="#" class="btn btn-primary">Purchase</a>
+          <?php foreach($models as $model): ?>
+            <div class="col-6">
+              <div class="card" style="width: 18rem;">
+                <img src="<?php echo $model['post_thumbnail_image'] ?>" class="card-img-top" alt="Product image">
+                <div class="card-body">
+                  <h5 class="card-title"><?php echo $model['title'] ?></h5>
+                  <p class="card-text"><?php echo $model['description'] ?></p>
+                  <hr>
+                  <strong class="card-text text-lg-right font-weight-bold">
+                    <?php echo 'Rp. ' . $model['price'] ?>
+                  </strong>
+                  <hr>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-6">
-            <div class="card" style="width: 18rem;">
-              <img src="https://images-na.ssl-images-amazon.com/images/I/41HrMSnMfUL._AC_UL600_SR483,600_.jpg" class="card-img-top img-fluid" alt="Product image">
-              <div class="card-body">
-                <h5 class="card-title">Book</h5>
-                <p class="card-text">Algorithm book</p>
-                <a href="#" class="btn btn-primary">Purchase</a>
-              </div>
-            </div>
-          </div>
+          <?php endforeach; ?>
         </div>
 
         <!-- Pagination -->
