@@ -2,7 +2,7 @@
 
 require_once './lib/Post.php';
 
-class Article extends Post
+final class Article extends Post
 {
     public $__data;
 

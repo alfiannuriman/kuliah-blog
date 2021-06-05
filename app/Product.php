@@ -2,7 +2,7 @@
 
 require_once './lib/Post.php';
 
-class Product extends Post
+final class Product extends Post
 {
     public $__data;
 
